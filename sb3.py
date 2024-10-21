@@ -54,6 +54,8 @@ def test(env, sb3_algo, path_to_model):
     
   obs = env.reset()[0]
   done = False
+  # This is done to load the model failing and falling to the ground before terminating the program
+  extra_steps = 500
   while True:
     action, _states = model.predict(obs, deterministic=True)
     obs, reward, done, info, _ = env.step(action)
