@@ -3,3 +3,4 @@ activate
 .bashrc
 logs/*
 models/*
+*.sh

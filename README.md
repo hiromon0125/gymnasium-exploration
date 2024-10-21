@@ -1,9 +1,8 @@
 # Hiro's exploration of gymnasium and reinforcement learning
 ## video ref: https://www.youtube.com/watch?v=OqvXHi_QtT0
 
-> [!NOTE]
-> Currently, the code is not working as expected.
-> For m1 mbp, the gymnasium <0.29.1 is not working and the latest version is not compatible with stable-baselines3.
+> [!WARNING]
+> This project is doable with macbook m1 but it is very difficult to set up. I recommend using a linux machine.
 
 # Supported models
 - TD3
