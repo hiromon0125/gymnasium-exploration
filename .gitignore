@@ -1,3 +1,5 @@
 .venv
 activate
 .bashrc
+logs/*
+models/*
